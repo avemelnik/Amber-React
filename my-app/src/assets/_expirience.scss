@@ -1,0 +1,41 @@
+.expirience{
+  min-height:100vh;
+  background: $primary-color;
+}
+.exp{
+  margin-top: 7em;
+  li{
+    p{
+      margin: 10px 0 10px 0;
+      font: 300 48px Oxygen, sans-serif;
+    }
+  }
+}
+
+.fon-circle{
+  background: black;
+  border-radius: 50%;
+  width:103px;
+  height: 103px;
+  i{
+    width:103px;
+    height: 103px;
+    color: $white-color;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+.fa{
+  &-cogs:before {
+    font-size: 50px;
+  }
+  &-rocket:before {
+    font-size: 50px;
+  }
+  &-phone:before {
+    font-size: 50px;
+  }
+}
+

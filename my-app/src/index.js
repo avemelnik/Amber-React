@@ -6,17 +6,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './style/style.css';
 //import './include/bootstrap'
 import '../node_modules/font-awesome/css/font-awesome.min.css';
-import Header from './components/Header';
-import Welcome from './components/Welcome';
-import Promo from './components/Promo';
-import Works from './components/Works';
-import Attention from './components/Attention';
-import Features from './components/Features';
-import Quote from './components/Quote'
-import Blog from './components/Blog'
-import Expirience from './components/Expirience'
-import Team from './components/Team'
-import Footer from './components/Footer'
+// import Header from './components/Header';
+// import Welcome from './components/Welcome';
+// import Promo from './components/Promo';
+// import Works from './components/Works';
+// import Attention from './components/Attention';
+// import Features from './components/Features';
+// import Quote from './components/Quote'
+// import Blog from './components/Blog'
+// import Expirience from './components/Expirience'
+// import Team from './components/Team'
+// import Footer from './components/Footer'
 
 
 import App from './App';
