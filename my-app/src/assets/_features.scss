@@ -1,0 +1,61 @@
+.features{
+  //min-height:500px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.feature-list{
+  margin-top: 4em;
+  li{
+    left:1em;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    p{
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+  }
+    li:nth-child(1):before {
+      content: "\f005";
+      font-family: FontAwesome;
+      font-size: 38px;
+      color: $primary-color;
+      top: 0;
+      left: 0;
+      display: block;
+      position: absolute;
+    }
+    li:nth-child(2):before {
+      content: "\f091";
+      font-family: FontAwesome;
+      font-size: 38px;
+      color: $primary-color;
+      top: 0;
+      left: 0;
+      display: block;
+      position: absolute;
+    }
+    li:nth-child(3):before {
+      content: "\f0d0";
+      font-family: FontAwesome;
+      font-size: 38px;
+      color: $primary-color;
+      top: 0;
+      left: 0;
+      display: block;
+      position: absolute;
+    }
+    li:nth-child(4):before {
+      content: "\f0ed";
+      font-family: FontAwesome;
+      font-size: 38px;
+      color: $primary-color;
+      top: 0;
+      left: 0;
+      display: block;
+      position: absolute;
+
+    }
+  }

@@ -1,0 +1,35 @@
+.gallery{
+  min-height: 100vh;
+  .text-galary{
+    margin-top: 4em;
+    color: #3b4954;
+    font-family: Oxygen;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    .latest-photo {
+      li .link-hidden .link-bg a i{
+        margin-left: 5px;
+        color:black!important;
+      }
+    }
+  }
+  ul{
+    margin-top: 4em;
+  }
+  .nav-gallery li {
+    align-items: flex-start;
+    width: 65px;
+    margin-right: 10px;
+    color: $primary-color;
+  }
+  .nav-gallery li :hover{
+    margin-right: 10px;
+    border-top: solid 5px #eeeeee;
+    text-decoration: none;
+    color: $dark-color;
+  }
+  .show-more:after{
+
+  }
+}

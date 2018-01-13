@@ -1,0 +1,67 @@
+.portfolio{
+  min-height:100vh;
+}
+
+.work-description{
+  padding: 0;
+  li:before{
+    content: "\f046";
+    font-family: FontAwesome;
+    position: relative;
+    right: 0.3em;
+    font-size: 14px;
+    color: #ffae00;
+  }
+  li:last-child:before{
+    content: none;
+  }
+  li:last-child{
+    margin-top: 3em;
+    .my-empty-btn{
+      color:#ffae00;
+      border-color: #ffae00;
+    }
+  }
+  li{
+    font-family: Oxygen;
+    font-size: 22px;
+    font-weight: 300;
+  }
+}
+
+.carousel-control-prev-icon{
+  color: yellow!important;
+}
+
+aside{
+  p{
+    font-family: Oxygen;
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .likes{
+    margin-top: 2em;
+  }
+  .likes:before{
+    content: "\f004";
+    font-family: FontAwesome;
+    position: relative;
+    right: 0.3em;
+    font-size: 18px;
+    color: grey;
+  }
+  .left, .right{
+    width:40px;
+    height: 40px;
+    background: white;
+    border: solid 1px grey;
+    color:#ffae00;
+  }
+  .left:hover, .right:hover{
+    width:40px;
+    height: 40px;
+    background: white;
+    border: solid 1px #ffae00;
+    color:#ffae00;
+  }
+}

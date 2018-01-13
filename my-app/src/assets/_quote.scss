@@ -1,0 +1,34 @@
+.quote{
+  min-height:450px;
+  .carousel-item img {
+    height: 450px;
+  }
+  .carousel-caption{
+    padding-bottom: 8em;
+  }
+  .carousel-caption:before{
+    content: "\f10e";
+    font-family: FontAwesome;
+    font-size: 38px;
+    color: $primary-color;
+    display: block;
+  }
+  .carousel-indicators{
+    li {
+      border-radius: 50%;
+      width: 8px;
+      height: 7px;
+    }
+    .active{
+      background: $primary-color;
+    }
+  }
+}
+
+.col-12{
+  display:flex;
+  align-items:center;
+  align-content:center;
+  justify-content: center;
+  flex-direction: column;
+}

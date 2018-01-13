@@ -1,0 +1,68 @@
+.our-team {
+  min-height: 100vh;
+  .co-worker{
+    margin-top: 7em;
+  }
+
+  .wrapper {
+    width: min-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-top:none;
+
+  }
+
+  figure {
+    position: relative;
+    overflow: hidden;
+  }
+  figure:hover {
+    .hidden-block-name {
+        opacity: 0;
+        transform: translateY(100%);
+      .hidden-figcaption-info {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+
+.hidden-block-name{
+  position: absolute;
+  background-color: $white-color;
+  left: 0;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 50px 20px 0;
+  transition: all 0.5s ease-out;
+  bottom: 0;
+  transform: translateY(0);
+
+  .hidden-block-info {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    background-color: $white-color;
+    border: 1px solid black;
+    width: 136px;
+    padding: 0;
+    transition: all 0.5s ease-out;
+
+    h4 {
+      color: $primary-color;
+      font: 400 14px Oxygen;
+      line-height: 18px;
+    }
+
+    p {
+      color: grey;
+    }
+  }
+
+  p {
+    opacity: 1;
+  }
+
+}

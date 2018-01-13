@@ -1,0 +1,17 @@
+.attention-section{
+  background: #25c4b0;
+  height: 141px;
+  .container{
+    max-width:860px;
+    p{
+      font: 300 24px Oxygen,sans-serif;
+      line-height: 36px;
+
+
+    }
+    .my-btn{
+      background: none;
+      border-color: $white-color;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.blog-post {
+  min-height: 100vh;
+}
+
+.blog{
+  margin-top: 7em;
+  li{
+    margin-bottom: 40px;
+  }
+}
+
+.blog-caption{
+  width:290px;
+  p{
+    font: 300 14px Oxygen, sans-serif;
+  }
+  h4{
+    margin-top: 10px;
+  }
+  h4:hover{
+    color: $hover-link-color;
+  }
+}
+
+.comments{
+  border-bottom: solid 1px black;
+  a{
+    color: $primary-color;
+    line-height: 35px;
+  }
+  a:hover{
+    text-decoration: none;
+    color: $hover-link-color;
+  }
+  p{
+    margin-top: 10px;
+  }
+}
+
+.fa-comment{
+  margin: 10px 10px 0 10px;
+}
+
+

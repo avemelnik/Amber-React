@@ -1,0 +1,22 @@
+.my-btn{
+  width: 136px;
+  height: 40px;
+  background: $primary-color;
+  border: solid 2px $primary-color;
+  margin: 10px;
+  color: #ffffff;
+  font: 700 12px Oxygen, sans-serif;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.my-empty-btn{
+  background: none;
+  margin:10px;
+  color: $primary-color;
+}
+
+.my-empty-btn:hover {
+  background: $primary-color;
+  color: $white-color;
+}

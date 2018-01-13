@@ -1,0 +1,8 @@
+.page-item .page-link {
+  border: none;
+  color: $primary-color;
+}
+.page-link:hover{
+  border-radius: 0;
+  color: $dark-color;
+}
