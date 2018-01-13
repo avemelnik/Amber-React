@@ -165,6 +165,7 @@ export default class MainBlog extends Component {
 
                                 </div>
                                 <h4>Tag cloud</h4>
+
                                 <div className="d-flex flex-column flex-wrap">
                                 <a href="#" className="my-btn my-empty-btn">bad boy</a>
                                 <a href="#" className="my-btn my-empty-btn">winter</a>
