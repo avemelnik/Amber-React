@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "color";
+@import "caption";
+@import "header";
+@import "header";
+@import "welcome";
+@import "button";
+@import "promo";
+@import "latest-works";
+@import "attention";
+@import "features";
+@import "quote";
+@import "blog-post";
+@import "expirience";
+@import "our-team";
+@import "footer";
+@import "pages-switch";
+@import "pages-block-header";
+@import "gallery";
+@import "portfolio";
+@import "main-section";
+@import "form-section";
+
+body{
+  width:100%;
+  margin: 0 auto;
+}
+.container{
+  max-width:940px;
+  margin: auto;
+}
+
+.container-fluid{
+  max-width:736px;
+}
+
+li{
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
